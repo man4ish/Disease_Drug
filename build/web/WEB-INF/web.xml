@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>GetRecords</servlet-name>
+        <servlet-class>Display_Records.GetRecords</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GetSNPRecords</servlet-name>
+        <servlet-class>Display_Records.GetSNPRecords</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GetSNPs</servlet-name>
+        <servlet-class>Display_Records.GetSNPs</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetRecords</servlet-name>
+        <url-pattern>/Display_Records/GetRecords</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GetSNPRecords</servlet-name>
+        <url-pattern>/Display_Records/GetSNPRecords</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GetSNPs</servlet-name>
+        <url-pattern>/Display_Records/GetSNPs</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

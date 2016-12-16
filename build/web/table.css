@@ -1,0 +1,33 @@
+.center1
+{ 
+margin-left: auto;
+margin-right: auto;
+}
+ 
+.center2
+{ 
+text-align: center;
+}
+
+.center
+{ 
+text-align: center;
+}
+
+.center table
+{ 
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+}
+
+div.centered 
+{
+text-align: center;
+}
+
+div.centered table 
+{
+margin: 0 auto; 
+text-align: left;
+}
